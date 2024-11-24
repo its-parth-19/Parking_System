@@ -1,22 +1,23 @@
-import React from 'react'
-import Navbar from './Components/Navbar';
-import Signup from './Components/Signup';
-import Login from './Components/Login';
-import ParkingSpace from './Components/ParkingSpace';
-import Wallet from './Components/Wallet';
+import React from "react";
+import Profile from "./Components/Profile";
+
+import Login from "./Components/Login";
+import ParkingSpace from "./Components/ParkingSpace";
 
 
-const App = () => {
+import './App.css';
+
+
+function App(){
+
   return (
-    <div>
-      <Navbar/>
-      <Signup/>
-      <Login />
-      <ParkingSpace />
-      <Wallet/>
-      
-    </div>
-  )
+    <>
+    <Login/>
+    {/* <ParkingSpace/> */}
+    
+    </>
+  );
 }
 
-export default App
+export default App;
+
